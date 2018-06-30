@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "My First Post!"
+date:   2018-06-30 09:22:47 +0200
+categories: learning
+---
+
+This one is my first one ...
+Copied yaml from previous ... hcanged date and title and category ...
