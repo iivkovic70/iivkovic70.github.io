@@ -6,4 +6,8 @@ categories: learning
 ---
 
 This one is my first one ...
-Copied yaml from previous ... hcanged date and title and category ...
+Copied yaml from previous ... changed date and title and category ...
+
+To add the picture ![Alternative text for image](http://aclouda.com/wp-content/uploads/2017/05/6-1.png)
+
+The say this is **bold** and that this is *italic* in markdwon.
