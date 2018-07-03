@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: YASATTAB Yet Another Simple Tips&Tricks Admin Blog
+email: iivkovic@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Simple administrator blog. Tips and tricks (and some code) tested and 
   found to be usefull.
