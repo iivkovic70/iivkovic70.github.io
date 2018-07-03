@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "My First Post!"
+title:  "How to force bitlocker encryption after MBAM agent install"
 date:   2018-07-02 09:22:47 +0200
 categories: microsoft bitlocker mbam
 ---
 
-## How to force bitlocker encyption after MBAM agent install
+## How to force bitlocker encryption after MBAM agent install
 
 So you made GPOs, distributed MBAM clients and waited for several hours (even days?) but encryption do not start ...
 
