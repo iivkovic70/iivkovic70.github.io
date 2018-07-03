@@ -5,7 +5,7 @@ date:   2018-07-02 09:22:47 +0200
 categories: microsoft bitlocker mbam
 ---
 
-# How to force bitlocker encyption after MBAM agent install
+# How to force bitlocker encryption after MBAM agent install
 
 So you made GPOs, distributed MBAM clients and waited for several hours (even days?) but encryption do not start ...
 
@@ -18,9 +18,11 @@ with value of **1**
 and restart MBAM client service for this change to take effect. You should get prompt for PIN or see that encryption started.
 
 ## Check for status from command prompt
-> manage-bde -status 
+> manage-bde -status
+
 and explanation is on this [link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/manage-bde)
 
 ## Check the reason why machine is not compliant from powershell
 > gwmi -class mbam_volume -Namespace root\microsoft\mbam
+
 it will give you numbers as reason(s) and explanation of those are on this [link](https://docs.microsoft.com/en-us/microsoft-desktop-optimization-pack/mbam-v25/determining-why-a-device-receives-a-noncompliance-message "Determining why a Device Receives a Noncompliance Message") 
