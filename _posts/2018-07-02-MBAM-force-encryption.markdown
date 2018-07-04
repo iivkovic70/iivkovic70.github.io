@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "My First Post!"
+title:  "How to force BitLocker encryption after MBAM agent install"
 date:   2018-07-02 09:22:47 +0200
-categories: microsoft bitlocker mbam
+categories: Microsoft BitLocker MBAM
 ---
-
-# How to force bitlocker encryption after MBAM agent install
 
 So you made GPOs, distributed MBAM clients and waited for several hours (even days?) but encryption do not start ...
 
@@ -22,7 +20,7 @@ and restart MBAM client service for this change to take effect. You should get p
 
 and explanation is on this [link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/manage-bde)
 
-## Check the reason why machine is not compliant from powershell
-> gwmi -class mbam_volume -Namespace root\microsoft\mbam
+## Check the reason why machine is not compliant from PowerShell
+> gwmi -class mbam_volume -Namespace root\Microsoft\mbam
 
-it will give you numbers as reason(s) and explanation of those are on this [link](https://docs.microsoft.com/en-us/microsoft-desktop-optimization-pack/mbam-v25/determining-why-a-device-receives-a-noncompliance-message "Determining why a Device Receives a Noncompliance Message") 
+This will give you numbers as reason(s) for (non)compliance and explanation of those numbers are on this [link](https://docs.microsoft.com/en-us/Microsoft-desktop-optimization-pack/mbam-v25/determining-why-a-device-receives-a-noncompliance-message "Determining why a Device Receives a Noncompliance Message") 
