@@ -22,7 +22,7 @@ and restart MBAM client service for this change to take effect. You should get p
 
 and explanation is on this [link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/manage-bde)
 
-## Check the reason why machine is not compliant from PowerShell
+### Check the reason why machine is not compliant from PowerShell
 
 > gwmi -class mbam_volume -Namespace root\microsoft\mbam
 
