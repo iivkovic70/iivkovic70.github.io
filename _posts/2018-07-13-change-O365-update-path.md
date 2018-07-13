@@ -9,11 +9,11 @@ You have installed Office 365 on number of clients and for some reason you want 
 
 There are at least 3 ways to achieve this
 
-### 1. Running **setup.exe
+### 1. Running **setup.exe**
 
-### 2. Change through **GPO
+### 2. Change through **GPO**
 
-### 3. Changing REG keys
+### 3. Changing **REGistry** keys
 
 {% highlight ruby %}
 HKLM\SOFTWARE\Microsoft\Office\ClickToRun\Configuration
